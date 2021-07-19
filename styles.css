@@ -1,0 +1,437 @@
+
+
+/* style for cup */
+#cup{
+  position:fixed;
+  left: 45%;
+  top: 0%;
+  width:180px;
+  height:auto;
+  transform: rotate(230deg);
+ z-index:1;
+ opacity: 0;
+
+  
+}
+/* making the elements responsive */
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+
+.responsive-drop{
+  width: 40%;
+  height: auto;
+}
+
+/* 1st section*/
+.div1 {
+  
+  /* height: 100vh; */
+  position: relative;
+  background: url(./assets/firstbg.PNG);
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* width: 100%; */
+  width:100vw;
+  height:250vh;
+/* height: auto; */
+}
+.cloud{
+  position:absolute;
+  top: 210vh;
+  width: 95vw;
+  height: auto;
+  z-index:5;
+}
+
+/* 2nd section */
+.div2 {
+  
+  background: url(./assets/secondbg.png);
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* padding-bottom: 10%; */
+  width: 100%;
+  /* height:3000px; */
+  height: auto;
+}
+
+/* 3rd section */
+.div3 {
+  background: url(./assets/secondbg.png);
+  
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  /* height:1300px; */
+  height: auto;
+}
+
+/* 4th section */
+.div4 {
+  background: url(https://www.capsul-in-pro.com/home-compost-capsule/assets/images/forest-210a8bc5d0dbe2b76af64878b6cddf38.webp);
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  /* height:2000px; */
+  height: auto;
+}
+
+/* droping one img down */
+.dropImage{
+  position: relative;
+  margin-top: 25%;
+
+}
+
+/* altering the font style in forest image section */
+.alter{
+  position : relative;
+  margin-top: 5%;
+  opacity: 0.5;
+  font-size: 272px;
+  color: rgb(51, 51, 51);
+  z-index:5
+}
+
+/* assigning z-index for text when cup comes in */
+.rotate-z{
+  position: relative;
+  z-index:5;
+}
+
+/* font gradiant for s2nd section text  */
+.gradiant{
+  font-size: 72px;
+  background: -webkit-linear-gradient(rgb(0, 163, 82), rgb(189, 189, 189));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.p1{
+  position: relative;
+  font-size: 32px;
+  background-color: rgb(0, 0, 0);
+  top: 50%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.p2{
+  position: relative;
+  font-size: 32px;
+  background-color: rgb(199, 199, 199);
+  top: -20%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.p3{
+  position: relative;
+  font-size: 32px;
+  background-color: rgb(255, 255, 255);
+  top: 50%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* aligning lable */
+.lable1{
+  
+  font-size: 32px;
+  background-color: rgb(145, 145, 145);
+  top: -20%;
+  width: 60%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.align{
+  padding-bottom: 10%;
+}
+
+.zero{
+  position: relative;
+  margin-top: 100px;
+  width:40%;
+  opacity: 0;
+  z-index:2;
+}
+
+
+.impact{
+  width:60%;
+  opacity: 0;
+}
+.card {
+  border: 10px solid blueviolet;
+  padding: 10px;
+  position: absolute;
+  font-size: 20px;
+  top: 20%;
+  width: 50%;
+  left: 20%;
+  background: #fff;
+}
+
+/* styling and positioning of leaf */
+.leaf1{
+  position:absolute;
+  /* transform: rotate(180deg); */
+  top: 5%;
+  left: 70%;
+  z-index:10;
+}
+.rotate220 {
+  
+  transform: rotate(220deg);
+}
+
+.leaf2{
+  position:absolute;
+  /* transform: rotate(180deg); */
+  opacity: 0.5;
+  top: 35%;
+  left: 10%;
+  z-index:10;
+}
+.rotate130 {
+  
+  transform: rotate(130deg);
+}
+
+.leaf3{
+  position:absolute;
+  /* transform: rotate(180deg); */
+  
+  top: 65%;
+  left: 15%;
+  z-index:10;
+}
+.rotate45 {
+  
+  transform: rotate(45deg);
+}
+
+/* moving leaf postioning and styles */
+.leafm1{
+  position:absolute;
+  /* transform: rotate(180deg); */
+  /* transform: rotate(45deg); */
+  opacity: 0;
+  top: 22%;
+  left: 35%;
+  z-index:10;
+}
+
+.leafm2{
+  position:absolute;
+  opacity: 0;
+  top: 22%;
+  right: 25%;
+  z-index:10;
+}
+
+/* ======================= */
+/* my code end here */
+/* ======================= */
+
+/* overAll background */
+.section{
+  background-image: url(https://www.capsul-in-pro.com/home-compost-capsule/assets/images/jungle-5f0c1c7c8d69d629f381032b7b3371fb.webp);
+  width: 100%;
+  height: 1024px;
+  color: #60b07b; 
+  font-size: 140px;
+  text-align: center;
+}
+
+/* Make position Center for all elements */
+.center
+{
+  /* position: absolute; */
+  
+  width: auto;
+  transform: matrix3d(10,10,10);
+  text-align: center;
+  margin-top: 2%;
+}
+
+/* circle for numbers */
+.circle{
+  box-sizing: border-box;
+  width: 35px;
+  height: 35px;
+  border: 2px #5e7d65 solid;
+  border-radius: 50%;
+  display: flex;
+  place-content: center;
+  place-items: center;
+}
+/* Unorder list color change */
+ul{
+  color:#000;
+  font-size: medium;
+  font-weight: 400;
+  display: grid;
+  grid-auto-flow: row;
+  gap: 22px;
+  grid-gap: 22px;
+}
+/* footer */
+footer
+{
+  background-color: #f8e3d2;
+  height: 800px;
+}
+.footer{
+  height: 900px;
+  background-image:url(https://www.capsul-in-pro.com/home-compost-capsule/assets/images/menu-bg-1b74f1ee5d35bb8afa45e50f46d7d530.webp);
+  font-size: large;
+  font-weight: 500;
+  color:white;
+  padding-bottom: 100px;
+  --gap-column: 9.84375vw;
+  --info-fs: 1.25vw;
+  --info-lh: 2.03125vw;
+  --contact-fs: 3.90625vw;
+  --contact-pd: 4.6875vw;
+  --contact-lh: 5.46875vw;
+  --title-fs: 1.25vw;
+} 
+
+/* overall css for html */
+html
+{
+  background-image: url(https://www.capsul-in-pro.com/home-compost-capsule/assets/images/paper-297f08165a7f45b76927e09a5fae4857.webp);
+  font-family: "Messina Sans";
+  font-size: 20px;
+  font-weight: 600;
+  color: #7eb0b7;
+  animation: 2s fadeIn;
+  animation-fill-mode: forwards;
+  transition: opacity all 1.5s;
+  
+}
+
+/* fade in when refresh*/
+  @keyframes fadeIn {
+  from {
+  opacity: 0;
+  }
+  to {
+  opacity: 1;
+}
+}
+
+/* underlined words */
+span
+{
+  text-decoration: underline;
+  text-decoration-line: underline;
+}
+
+/* intersecting of two images */
+.intersect{
+  margin-top: -20%;
+
+}
+
+/* list font style */
+li{
+  font-weight: 500;
+}
+
+/* all images 5% left */
+img{
+  margin-left: 5%;
+}
+
+/* font styling */
+.h21
+{
+  font-size: 80px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: #5e7d65;
+  background: linear-gradient(281.39deg,rgba(255,255,255,0.67) 9.92%, rgba(255,255,255,0) 76.51%), linear-gradient(0deg, #5e7d65, #5e7d65);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  float:left;
+  max-width: 25% !important;
+  margin-left: 8%;
+}
+.h2{
+font-size: 22px;
+  font-weight: 700;
+background: linear-gradient(281.39deg,rgba(255,255,255,0.67) 9.92%, rgba(255,255,255,0) 76.51%), linear-gradient(0deg, #5e7d65, #5e7d65);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* aligning the text */
+#leftbox {
+      float:left;
+      color: #000;
+      width: 280px;
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 32px;
+      position: relative;
+      
+      margin-left: 10%;
+  }
+#middlebox{
+      float:left;
+      color: #000;
+      width: 280px;
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 32px;
+      position: relative;
+      
+      margin-left: 1%;
+  }
+.right.span
+{
+  float: right;
+}
+.full{
+  text-align: center;
+  margin-left: 45%;
+}
+h3{
+  font-size: xx-large;
+  font-weight: 900;
+  font-style: bold;
+}
+th{
+  font-size: x-large;
+  font-weight: 700;
+}
+.paragraph
+{
+  width: 100%;
+  max-width: 990px;
+  margin: auto;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 32px;
+  color: #000;
+  text-align: center;
+}
+.new{
+margin-left: -8%;
+display:inline;
+}
+.picture{
+  transform: matrix(10,10,10);
+/* animation: square-to-circle 2s */
+}
